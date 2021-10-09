@@ -1,0 +1,101 @@
+/* Values by default */
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    line-height: 1;
+    font-size: 16px;
+    color: rgb(37, 37, 37);
+    font-family: 'Akronim', cursive;
+    background-image: url(https://cdn1.modernadventure.com/app/uploads/2018/09/22131448/ModernAdventure-Kachka-WhyWeTravel-V3-edited.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+#content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+#restaurant-name{
+    color: white;
+    font-size: 90px;
+}
+#nav-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-button{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    transition: 0.1s;
+}
+.nav-button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+    text-shadow: 0px 0px 2px white,
+                 0px 0px 4px white,
+                 0px 0px 8px white;
+}
+.nav-button.active{
+    border-radius: 30%;
+    border-bottom: 2px solid white;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+}

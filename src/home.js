@@ -5,6 +5,8 @@ export function displayHome() {
     
     clearContent();
     const contentWindow = document.getElementById('main');
+    contentWindow.style.justifyContent = "flex-start";
+    contentWindow.style.gap = "60px"
     //restaurant quote
     let phrase = document.createElement('h1');
     phrase.setAttribute('id', 'phrase');

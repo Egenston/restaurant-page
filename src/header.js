@@ -7,7 +7,6 @@ export function displayHeader() {
 
     //creating restaurant name
     let restaurantName = document.createElement('h1');
-    restaurantName.setAttribute('id', 'restaurant-name');
     restaurantName.textContent = "Tbilisi";
     header.appendChild(restaurantName);
 

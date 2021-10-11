@@ -95,6 +95,7 @@ main{
     gap: 60px;
     border-radius: 30px;
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     padding: 20px;
     margin: 20px auto;
     width: 800px;
